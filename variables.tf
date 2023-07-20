@@ -6,10 +6,10 @@ variable "location" {
 
 variable "aws_pub_key" {
   type        = string
-    description = "Public key para VM na AWS"
+  description = "Public key para VM na AWS"
 }
 
 variable "azure_pub_key" {
   type        = string
-    description = "Public key para VM na AZURE"
+  description = "Public key para VM na AZURE"
 }
